@@ -1,0 +1,776 @@
+{ 
+    "_id" : "5c01af809e0d9532732b006e", 
+    "TimeStamp" : "2018-11-30T21:45:09Z", 
+    "name" : "bep", 
+    "Parent" : "null", 
+    "children" : [
+        {
+            "access_state" : "enabled", 
+            "name" : "PROD-BILLER", 
+            "children" : [
+                {
+                    "gtm_state" : "green", 
+                    "name" : "enicollector-service.g", 
+                    "children" : [
+                        {
+                            "name" : "PDC-G2", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.246", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.243", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.244", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "IPs", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.252", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.248", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.28.77.8", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.28.77.80", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "WDC-G3", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.246", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.250", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.251", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.247", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "ASH-G1", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.244", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.243", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.246", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "gtm_state" : "green", 
+                    "name" : "deviceaddress-service-prod.g", 
+                    "children" : [
+                        {
+                            "name" : "PDC-G2", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.246", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.243", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.244", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "IPs", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.252", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.248", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "WDC-G3", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.246", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.250", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.251", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.247", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "ASH-G1", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.244", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.243", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.246", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "gtm_state" : "green", 
+                    "name" : "devicesearch-service-prod.g", 
+                    "children" : [
+                        {
+                            "name" : "PDC-G2", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.246", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.243", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.244", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "IPs", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.252", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.248", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "WDC-G3", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.246", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.250", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.251", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "172.24.68.247", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "ASH-G1", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.244", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.243", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.246", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "access_state" : "enabled", 
+            "name" : "PROD-BEP", 
+            "children" : [
+                {
+                    "gtm_state" : "green", 
+                    "name" : "eepcsg.g", 
+                    "children" : [
+                        {
+                            "name" : "Potomac", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "96.114.156.70", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "NDC Chicago", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "162.150.57.81", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "access_state" : "enabled", 
+            "name" : "PROD-GTM", 
+            "children" : [
+                {
+                    "gtm_state" : "green", 
+                    "name" : "refreshcollector-service-prod.g.app.cloud", 
+                    "children" : [
+                        {
+                            "name" : "IPs", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "172.24.68.252", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "172.24.68.248", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "WDC-G3", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "172.24.68.251", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "172.24.68.247", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "172.24.68.246", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "172.24.68.250", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "PDC-G2", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.244", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.246", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.190.243", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "ASH-G1", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.247", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.246", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.243", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.240", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.250", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.241", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.251", 
+                                    "availability" : "available"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.54.141.244", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "access_state" : "enabled", 
+            "name" : "INT-BILLER", 
+            "children" : [
+                {
+                    "gtm_state" : "green", 
+                    "name" : "eepcsgint.g.cable", 
+                    "children" : [
+                        {
+                            "name" : "IPs", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "165.137.171.9", 
+                                    "availability" : "offline"
+                                }, 
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "165.137.170.82", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "access_state" : "enabled", 
+            "name" : "PROD-BEP", 
+            "children" : [
+                {
+                    "gtm_state" : "green", 
+                    "name" : "eepftp.g", 
+                    "children" : [
+                        {
+                            "name" : "NDC Chicago", 
+                            "ltm_state" : "green", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.22.92.48", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "Potomac", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "10.22.29.102", 
+                                    "availability" : "available"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "access_state" : "enabled", 
+            "name" : "PROD-BEP", 
+            "children" : [
+                {
+                    "gtm_state" : "red", 
+                    "name" : "eepbep.g", 
+                    "children" : [
+                        {
+                            "name" : "NDC Chicago", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.22.92.51", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "NDC Ashburn", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "76.96.25.64", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "Potomac", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "10.22.29.95", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "West Chester", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "68.87.34.234", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "access_state" : "enabled", 
+            "name" : "PROD-BILLER", 
+            "children" : [
+                {
+                    "gtm_state" : "red", 
+                    "name" : "eepbepint.g.cable", 
+                    "children" : [
+                        {
+                            "name" : "QC2", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "disabled", 
+                                    "name" : "10.255.145.66", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }, 
+                        {
+                            "name" : "Zone 7", 
+                            "ltm_state" : "red", 
+                            "children" : [
+                                {
+                                    "state" : "enabled", 
+                                    "name" : "10.251.87.108", 
+                                    "availability" : "offline"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
